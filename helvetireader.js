@@ -9,14 +9,10 @@
 
 var currentHelvetiTheme = "day";
 
-// var favvy = document.createElement('link');
-// favvy.setAttribute('type', 'image/x-icon');
-// favvy.setAttribute('rel', 'shortcut icon');
-// favvy.setAttribute('href', 'http://www.helvetireader.com/favicon.png');
-// var head = document.getElementsByTagName('head')[0];
-// head.appendChild(favvy);
+setTimeout(function(){
+    addThemeSwitchLink();
+}, 0);
 
-addThemeSwitchLink();
 setTimeout(function(){
     switchHelvetiTheme(getThemeCookie("HelvetireaderTheme"));
 }, 0);
@@ -54,16 +50,19 @@ function toggleView(){
 
 /* Add the theme switch link */
 function addThemeSwitchLink(){
-    var newDiv = document.createElement("div");
-    newDiv.innerHTML = "";
-    newDiv.id = "HelvetiThemeSwitcher";
-    document.body.appendChild(newDiv);
-    newDiv.addEventListener("click",function(e){
-        if(currentHelvetiTheme == "day")
-            switchHelvetiTheme("night");
-        else
-            switchHelvetiTheme("day");
-    })
+    if(!document.getElementById("HelvetiThemeSwitcher"))
+    {
+        var newDiv = document.createElement("div");
+        newDiv.innerHTML = "";
+        newDiv.id = "HelvetiThemeSwitcher";
+        document.body.appendChild(newDiv);
+        newDiv.addEventListener("click",function(e){
+            if(currentHelvetiTheme == "day")
+                switchHelvetiTheme("night");
+            else
+                switchHelvetiTheme("day");
+        });
+    }
 }
 
 function switchHelvetiTheme(theme){
