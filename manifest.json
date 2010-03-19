@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [ "https://*.google.com/reader/view/*", "http://*.google.com/reader/view/*", "htt*://*.google.*/reader/view*" ],
+      "js": [ "helvetireader.js" ],
+			"css": [ "helvetireader.css" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "converted_from_user_script": true,
+   "description": "A modified Helvetireader for Google Reader",
+   "name": "Helvetireader: A New Flavor",
+   "version": "1.0"
+}
