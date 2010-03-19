@@ -18,8 +18,9 @@ var head = document.getElementsByTagName('head')[0];
 head.appendChild(favvy);
 
 addThemeSwitchLink();
-switchHelvetiTheme(getThemeCookie("HelvetireaderTheme"));
-
+setTimeout(function(){
+    switchHelvetiTheme(getThemeCookie("HelvetireaderTheme"));
+}, 0);
 
 /* Make the 'U' shortcut work with Helvetireader */
 document.addEventListener("keypress",function(e){
@@ -55,7 +56,7 @@ function toggleView(){
 /* Add the theme switch link */
 function addThemeSwitchLink(){
     var newDiv = document.createElement("div");
-    newDiv.innerHTML = "( go dark )";
+    newDiv.innerHTML = "";
     newDiv.id = "HelvetiThemeSwitcher";
     document.body.appendChild(newDiv);
     newDiv.addEventListener("click",function(e){
