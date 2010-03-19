@@ -9,13 +9,12 @@
 
 var currentHelvetiTheme = "day";
 
-
-var favvy = document.createElement('link');
-favvy.setAttribute('type', 'image/x-icon');
-favvy.setAttribute('rel', 'shortcut icon');
-favvy.setAttribute('href', 'http://www.helvetireader.com/favicon.png');
-var head = document.getElementsByTagName('head')[0];
-head.appendChild(favvy);
+// var favvy = document.createElement('link');
+// favvy.setAttribute('type', 'image/x-icon');
+// favvy.setAttribute('rel', 'shortcut icon');
+// favvy.setAttribute('href', 'http://www.helvetireader.com/favicon.png');
+// var head = document.getElementsByTagName('head')[0];
+// head.appendChild(favvy);
 
 addThemeSwitchLink();
 setTimeout(function(){
