@@ -55,7 +55,8 @@ function addThemeSwitchLink(){
         var newDiv = document.createElement("div");
         newDiv.innerHTML = "";
         newDiv.id = "HelvetiThemeSwitcher";
-        document.body.appendChild(newDiv);
+        var guser = document.getElementById("guser");
+        guser.insertBefore(newDiv,guser.firstChild);
         newDiv.addEventListener("click",function(e){
             if(currentHelvetiTheme == "day")
                 switchHelvetiTheme("night");

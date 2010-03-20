@@ -12,8 +12,7 @@ Helvetireader: A New Flavor
 
 /* Anything to to hide? */
 #logo,.gbh, .star {display: none !important;}
-/*#gbar nobr, #guser * { display:none }*/
-/*#gbar:hover nobr, #guser:hover * { display: inline;}*/
+
 #guser{
 	padding-bottom:0px !important;
 }
@@ -22,13 +21,13 @@ Helvetireader: A New Flavor
 }
 #guser a, #guser{
 	font-size: 10px !important;
-	color:#ccc !important; text-decoration: none !important;border: none !important;
+	color:#ccc !important; 
+	text-decoration: none !important;
+	border: none !important;
 }
 #guser a:hover{
-	color: #333 !important;
+	color: #ccc !important;
 }
-/*#guser { color: #f4f4f4 !important; }*/
-/*#guser:hover  { color: #999 !important; }*/
 
 /* Get rid of all unwanted borders and backgrounds */
 #chrome-header, 
@@ -106,7 +105,7 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 #nav {margin: 0 0 0 12px !important; width: 240px !important;}
 #nav li, #nav div {font-size: 12px !important;}
 
-#nav:before {
+/*#nav:before {
 	content:"helvetireader";
 	display: block;
 	margin: -28px 0 50px 25px;
@@ -114,7 +113,7 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 	letter-spacing:3px;
 	font-size: 12px;
 	font-weight: bold;
-}
+}*/
 
 .subscribe-button {
 	margin: 0 0 0 10px !important;
@@ -228,7 +227,7 @@ a#sub-tree-subscriptions,
 #search { 
 	margin: 0!important; 
 	left: 35px !important;
-	top: 80px !important;	
+	top: 40px !important;	
 }
 
 #search-input { 
@@ -236,12 +235,13 @@ a#sub-tree-subscriptions,
 	font-size:11px;
 	color: #aaa;
 	padding: 1px;
+	height: 8px !important;
 	-webkit-border-radius: 10px;
 	outline: none;
 	width: 200px !important;
 }
 
-#chrome { margin: -50px 0 10px 245px !important;}
+#chrome { margin: -45px 0 10px 245px !important;}
 
 /* @end */
 
@@ -411,13 +411,15 @@ div.goog-menu, div.goog-menu-vertical{
 /* @end */
 
 #HelvetiThemeSwitcher{
-	position: absolute;
-	top: 37px;
-	left: 170px;
+	display: inline;
+	margin-right: 3px;
 	cursor:pointer;
-	font-style: italic;
-	font-size:11px;
-	color: #aaa;
+	border-right: 1px solid #ccc;
+	padding-right: 2px;
+	font-weight: bold;
+	/*font-style: italic;*/
+	font-size:10px;
+	color: #ccc;
 }
 /* @end */
 
@@ -567,6 +569,11 @@ div.goog-menu, div.goog-menu-vertical{
 	body.HelvetiNight #loading-area .message-area-inner{
 		background-color: #201c1c !important; 
 		color: #fff !important;
+	}
+	
+	body.HelvetiNight #search-input{
+		background-color: #4f4545 !important;
+		border-color:#453e3e !important;
 	}
 /* @end */
 
