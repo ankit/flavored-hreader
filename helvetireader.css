@@ -142,7 +142,9 @@ a#sub-tree-subscriptions,
 .tree-link-selected { background: none !important; }
 .tree-link-selected .name-text { color: #000 !important;}
 
-#lhn-selectors .selected,#lhn-selectors .selected:hover{ background-color:transparent !important;}
+#lhn-selectors .selected,#lhn-selectors .selected:hover{ 
+	background-color:transparent !important;
+}
 
 .selected .link,.selected .text {
 	color: #657094 !important;
@@ -269,6 +271,9 @@ a#sub-tree-subscriptions,
 .tree-link-selected .name-text{
 	color:#657094 !important;
 }
+.scroll-tree .link:hover{
+	border-radius:2px !important;
+}
 
 /* @group Scrollbars */
 
@@ -342,8 +347,9 @@ div.goog-menu, div.goog-menu-vertical{
 	background-color: #d2d8f3 !important;
 }
 
-.scroll-tree li .cursor{
-	background-color: #d2d8f3 !important;
+.scroll-tree li .cursor,.scroll-tree li .cursor .name{
+	color: #656565 !important;
+	background-color: #eaeaea !important;
 }
 /* @end */
 
@@ -451,8 +457,9 @@ div.goog-menu, div.goog-menu-vertical{
 	body.HelvetiDay #overview .item-snippet{
 		color:#333 !important;
 	}
-	body.HelvetiDay .scroll-tree .link:hover{
-		background-color:  #d2d8f3 !important;
+	body.HelvetiDay .scroll-tree a:hover, body.HelvetiDay .scroll-tree a:hover .name{
+		color: #656565 !important;
+		background-color: #eaeaea !important;
 	}
 
 /* @end */
@@ -460,20 +467,23 @@ div.goog-menu, div.goog-menu-vertical{
 /* @group HelvetiNight */
 	
 	/* Dark theme color scheme inspired from Readability Inverse theme */
-	body.HelvetiNight{ background-color:#2D2828 !important; color:#fff !important;}
+	body.HelvetiNight{ 
+		background-color: #292525 !important; 
+		color:#fff !important;
+	}
 	
 	body.HelvetiNight .card , body.HelvetiNight #entries.list{ 
-		background: #2D2828 !important; 
-		border: 1px solid #333 !important;	
-		border-bottom: 1px solid #333 !important;
+		background: #292525 !important; 
+		border: 1px solid #453e3e  !important;	
+		border-bottom: 1px solid #453e3e !important;
 		margin-right: 20px !important;
 		color: #fcfcfc !important;
 	}
 		
 	body.HelvetiNight #current-entry .card {
 		background: #2D2828 !important;
-		border: 1px solid #333 !important;
-		border-bottom: 1px solid #333 !important;
+		border: 1px solid #453e3e !important;
+		border-bottom: 1px solid #453e3e !important;
 		color: #EAE8E9 !important;
 	}
 	
@@ -503,12 +513,9 @@ div.goog-menu, div.goog-menu-vertical{
 		color: #fff !important;
 	}
 	
-	body.HelvetiNight .scroll-tree .link:hover{
+	body.HelvetiNight .scroll-tree a:hover, body.HelvetiNight .scroll-tree a:hover .name, body.HelvetiNight .scroll-tree li .cursor, body.HelvetiNight .scroll-tree li .cursor .name{
 		background-color: #4a4343 !important;
-	}
-	
-	body.HelvetiNight .scroll-tree li .cursor{
-		background-color: #4a4343 !important;
+		color: #d8c7c4 !important;
 	}
 	
 	body.HelvetiNight .goog-menuitem:hover{
@@ -529,6 +536,38 @@ div.goog-menu, div.goog-menu-vertical{
 	
 	body.HelvetiNight .unread-count { color: rgba(169,151,151,0.21) !important;}
 
+	/* Banner */
+
+	body.HelvetiNight .banner{
+		background-color: #242020 !important;
+		color: #eee !important;
+		border: 1px solid #453e3e !important;
+	}
+	
+	body.HelvetiNight .banner th{
+		color: #868686 !important;
+	}
+
+	body.HelvetiNight .banner .stream-list-label{
+		color: #bca8a8 !important;
+	}
+
+	body.HelvetiNight .banner .stream-list .streams .unread{
+		color: #bca8a8 !important;
+	}
+	body.HelvetiNight .banner .stream-list .streams .selected{
+		background-color: #dec7c7 !important;
+		color: #242020 !important;
+	}
+	body.HelvetiNight .banner .no-matches{
+		color: #fff !important;
+	}
+	
+
+	body.HelvetiNight #loading-area .message-area-inner{
+		background-color: #201c1c !important; 
+		color: #fff !important;
+	}
 /* @end */
 
 .entry-author a:hover{

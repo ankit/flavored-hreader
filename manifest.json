@@ -6,6 +6,9 @@
 			"css": [ "helvetireader.css" ],
       "matches": [ "http://*/*", "https://*/*" ]
    } ],
+	 "icons":{
+		"128": "images/icon.png"
+	 },
    "converted_from_user_script": true,
    "description": "A modified Helvetireader for Google Reader",
    "name": "Helvetireader: A New Flavor",
