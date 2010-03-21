@@ -102,7 +102,7 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 	background-position:0px 0px !important;
 }
 .entry .entry-actions .broadcast-active{
-	background-position:0px -14px !important;
+	background-position:0px -21px !important;
 }
 .entry .entry-actions .broadcast-with-note{
 	background: transparent url(chrome-extension://ljbmahedhikjhjkeaefhhcalhmidebkk/images/note.png) no-repeat !important;
@@ -113,7 +113,7 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 	background-position:0px 0px !important;
 }
 .entry .entry-actions .like-active{
-	background-position:0px -17px !important;
+	background-position:0px -22px !important;
 }
 .entry .entry-actions .email{
 	background: transparent url(chrome-extension://ljbmahedhikjhjkeaefhhcalhmidebkk/images/email.png) no-repeat !important;
@@ -127,7 +127,7 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 	background-position:0px 0px !important;
 }
 .entry .entry-actions .read-state-kept-unread{
-	background-position:0px -14px !important;
+	background-position:0px -21px !important;
 }
 .entry .entry-actions .item-link{
 	background: transparent url(chrome-extension://ljbmahedhikjhjkeaefhhcalhmidebkk/images/sendto.png) no-repeat !important;
