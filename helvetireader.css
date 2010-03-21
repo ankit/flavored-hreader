@@ -8,8 +8,6 @@ Helvetireader: A New Flavor
 
 * {font-family: "Helvetica Neue", Helvetica-Neue, Helvetica, "MgOpen Moderna", sans-serif !important;}
 
-/*#main{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAGQCAYAAACXuPEsAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAAVdEVYdENyZWF0aW9uIFRpbWUAMTAvMS8xMA6Pz8cAAADnSURBVHic7ZcxDoMwEASNxf//6UcAKaK01iGNJTbMtox8s3cVrRljjDHGvCPbGGObAtv38957n4K/7K21Etgr0K0XE0b/VZmEPSY4JpRJ2KOODKgjA+rIgDoyoI4MqCMD6siAOjKgjgyoIwPqyIA6MqCOTx39zjLemgHdIwMmlPHWDOgep0lwTCiTsMcEx4QyCXvUkQF1ZEAdGVBHBtSRAXVkQB0ZUEcG1JEBdWRAHRnQ32YGTCjjrRnQPTLgrTIleEGZ67r4F0tl6utZ4siDFW7RaNjxPM8amDD6zos18DiOGlgeXQU/vt9ELu/VMV8AAAAASUVORK5CYII=) !important;background-position: left bottom !important;background-repeat:  repeat-x !important;}*/
-
 /* Anything to to hide? */
 #logo,.gbh, .star {display: none !important;}
 
@@ -21,12 +19,12 @@ Helvetireader: A New Flavor
 }
 #guser a, #guser{
 	font-size: 10px !important;
-	color:#ccc !important; 
+	color: #aaa !important; 
 	text-decoration: none !important;
 	border: none !important;
 }
 #guser a:hover{
-	color: #ccc !important;
+	color: #888 !important;
 }
 
 /* Get rid of all unwanted borders and backgrounds */
@@ -146,16 +144,6 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 
 #nav {margin: 0 0 0 12px !important; width: 240px !important;}
 #nav li, #nav div {font-size: 12px !important;}
-
-/*#nav:before {
-	content:"helvetireader";
-	display: block;
-	margin: -28px 0 50px 25px;
-	color: #90a0cb;
-	letter-spacing:3px;
-	font-size: 12px;
-	font-weight: bold;
-}*/
 
 .subscribe-button {
 	margin: 0 0 0 10px !important;
@@ -455,9 +443,7 @@ div.goog-menu, div.goog-menu-vertical{
 	border-right: 1px solid #ccc;
 	padding-right: 2px;
 	font-weight: bold;
-	/*font-style: italic;*/
 	font-size:10px;
-	color: #ccc;
 }
 /* @end */
 
@@ -568,15 +554,11 @@ div.goog-menu, div.goog-menu-vertical{
 		color: #f1dedb !important;
 	}
 	
-	/*body.HelvetiNight .entry-actions{
-		display: none !important;
-	}*/
-	
 	body.HelvetiNight .selected .link,.selected .text, body.HelvetiNight .tree-link-selected .name-text {
 		color: #f1dedb !important;
 	}
 	
-	body.HelvetiNight .unread-count { color: rgba(169,151,151,0.21) !important;}
+	body.HelvetiNight .unread-count { color: rgba(169,151,151,0.35);}
 
 	/* Banner */
 
@@ -626,6 +608,13 @@ div.goog-menu, div.goog-menu-vertical{
 	}
 	body.HelvetiNight #entries.list .entry-container{
 		background-color: #2D2828 !important;
+	}
+	
+	body.HelvetiNight #guser a, body.HelvetiNight #guser{
+		color:#ccc !important; 
+	}
+	body.HelvetiNight #guser a:hover{
+		color: #ccc !important;
 	}
 
 /* @end */
