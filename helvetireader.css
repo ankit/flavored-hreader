@@ -115,7 +115,7 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 	background-position:0px 0px !important;
 }
 .entry .entry-actions .like-active{
-	background-position:0px -16px !important;
+	background-position:0px -17px !important;
 }
 .entry .entry-actions .email{
 	background: transparent url(chrome-extension://ljbmahedhikjhjkeaefhhcalhmidebkk/images/email.png) no-repeat !important;
@@ -213,8 +213,8 @@ a#sub-tree-subscriptions,
 	color: #cdcdcd !important;
 }
 
-.entry-date,.entry-actions .link, #sub-tree-subscriptions {
-	color: #999 !important;
+.entry-date,.entry-actions .link, #sub-tree-subscriptions, .scroll-tree a .name {
+	color: #909090 !important;
 }
 .card-content .entry-date {
 	float:none !important;	
@@ -389,10 +389,6 @@ div.goog-menu, div.goog-menu-vertical{
 	background-color: #d2d8f3 !important;
 }
 
-.scroll-tree li .cursor,.scroll-tree li .cursor .name{
-	color: #656565 !important;
-	background-color: #eaeaea !important;
-}
 /* @end */
 
 	/* @group Banners */
@@ -501,10 +497,12 @@ div.goog-menu, div.goog-menu-vertical{
 	body.HelvetiDay #overview .item-snippet{
 		color:#333 !important;
 	}
-	body.HelvetiDay .scroll-tree a:hover, body.HelvetiDay .scroll-tree a:hover .name{
-		color: #656565 !important;
-		background-color: #eaeaea !important;
-	}
+	
+	body.HelvetiDay .scroll-tree a:hover, body.HelvetiDay .scroll-tree a:hover .name, body.HelvetiDay .scroll-tree li .cursor, body.HelvetiDay .scroll-tree li .cursor .name{
+	color: #7a7a7a !important;
+	background-color: #eaeaea !important;
+}
+
 
 /* @end */
 
@@ -512,12 +510,12 @@ div.goog-menu, div.goog-menu-vertical{
 	
 	/* Dark theme color scheme inspired from Readability Inverse theme */
 	body.HelvetiNight{ 
-		background-color: #292525 !important; 
+		background-color: #353030 !important; 
 		color:#fff !important;
 	}
 	
 	body.HelvetiNight .card , body.HelvetiNight #entries.list{ 
-		background: #292525 !important; 
+		background-color: #353030 !important; 
 		border: 1px solid #453e3e  !important;	
 		border-bottom: 1px solid #453e3e !important;
 		margin-right: 20px !important;
@@ -622,6 +620,12 @@ div.goog-menu, div.goog-menu-vertical{
 	}
 	body.HelvetiNight .entry-actions .link{
 		color: #ccc !important;
+	}
+	body.HelvetiNight #entries .collapsed .entry-title{
+		color: #ccc !important;
+	}
+	body.HelvetiNight #entries.list .entry-container{
+		background-color: #2D2828 !important;
 	}
 
 /* @end */
