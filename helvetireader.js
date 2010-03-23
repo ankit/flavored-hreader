@@ -94,7 +94,7 @@ function switchHelvetiTheme(theme){
             document.getElementById("HelvetiThemeSwitcher").innerHTML = "go light";
         }
     }
-    saveThemeCookie("HelvetireaderTheme", theme);
+    saveThemeCookie("HelvetireaderTheme", theme, 365);
 }
 
 /* Code from http://www.quirksmode.org/js/cookies.html */
