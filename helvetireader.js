@@ -19,7 +19,7 @@ setTimeout(function(){
 
 /* Make the 'U' shortcut work with Helvetireader */
 document.addEventListener("keypress",function(e){
-    if(e.keyCode == 117)
+    if(e.keyCode == 117 && e.target.tagName != "INPUT" && e.target.tagName != "TEXTAREA")
     {
         setTimeout(function(){
             if(typeof(document.getElementsByClassName("banner")[0]) == "undefined")
