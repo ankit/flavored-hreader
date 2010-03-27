@@ -613,6 +613,13 @@ div.goog-menu, div.goog-menu-vertical{
 	body.HelvetiNight #guser a:hover{
 		color: #ccc !important;
 	}
+	body.HelvetiNight .entry-conversation{
+		background-color: #353030 !important; 
+		border-color:#453e3e !important;
+	}
+	body.HelvetiNight .generic-comments-header, body.HelvetiNight .goog-button-base-content, body.HelvetiNight .start-your-convo{
+		color: #ccc !important;
+	 }
 
 /* @end */
 
