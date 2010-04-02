@@ -138,6 +138,7 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 }
 .entry .entry-actions .email-active{
 	background-position:0px -14px !important;
+	border-bottom: none !important;
 }
 .entry .entry-actions .read-state{
 	/* development */
@@ -188,7 +189,7 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 	color: #818181 !important;
 }
 
-.folder-name-text,
+.folder-name,
 .scroll-tree .name,
 .selector .text,
 a#sub-tree-subscriptions,
@@ -328,11 +329,15 @@ a#sub-tree-subscriptions,
 .entry-actions{
 	font-size: 11px !important;
 }
-.tree-link-selected .name-text{
+.tree-link-selected .name-text, .tree-link-selected .folder-name-text{
 	color:#657094 !important;
 }
 .scroll-tree .link:hover{
 	border-radius:2px !important;
+}
+
+.email-entry-table .goog-button-body{
+	font-weight: bold;		
 }
 
 /* @group Scrollbars */
@@ -514,11 +519,14 @@ div.goog-menu, div.goog-menu-vertical{
 		color:#333 !important;
 	}
 	
-	body.HelvetiDay .scroll-tree a:hover, body.HelvetiDay .scroll-tree a:hover .name, body.HelvetiDay .scroll-tree li .cursor, body.HelvetiDay .scroll-tree li .cursor .name, body.HelvetiDay .scroll-tree li .cursor .folder-name-text, body.HelvetiDay .scroll-tree a:hover .folder-name-text{
-	color: #7a7a7a !important;
-	background-color: #eaeaea !important;
-}
-
+	body.HelvetiDay .scroll-tree a:hover, body.HelvetiDay .scroll-tree a:hover .name, body.HelvetiDay .scroll-tree li .cursor, body.HelvetiDay .scroll-tree li .cursor .name, body.HelvetiDay .scroll-tree li .cursor .folder-name, body.HelvetiDay .scroll-tree a:hover .folder-name{
+		color: #7a7a7a !important;
+		background-color: #eaeaea !important;
+	}
+	body.HelvetiDay .email-entry-table{
+		color: #333 !important;
+		background-color: #F7F7F7 !important;
+	}
 
 /* @end */
 
@@ -549,7 +557,7 @@ div.goog-menu, div.goog-menu-vertical{
 		color: #EAE8E9 !important;
 	}
 	
-	body.HelvetiNight .scroll-tree a .name, body.HelvetiNight .folder-name-text {
+	body.HelvetiNight .scroll-tree a .name, body.HelvetiNight .folder-name {
 		color: #b4b4b4 !important;
 	}
 	
@@ -577,7 +585,7 @@ div.goog-menu, div.goog-menu-vertical{
 		color: #fff !important;
 	}
 	
-	body.HelvetiNight .scroll-tree a:hover, body.HelvetiNight .scroll-tree a:hover .name, body.HelvetiNight .scroll-tree li .cursor, body.HelvetiNight .scroll-tree li .cursor .name, body.HelvetiNight .scroll-tree li .cursor .folder-name-text, body.HelvetiNight .scroll-tree a:hover .folder-name-text{
+	body.HelvetiNight .scroll-tree a:hover, body.HelvetiNight .scroll-tree a:hover .name, body.HelvetiNight .scroll-tree li .cursor, body.HelvetiNight .scroll-tree li .cursor .name, body.HelvetiNight .scroll-tree li .cursor .folder-name, body.HelvetiNight .scroll-tree a:hover .folder-name{
 		background-color: #4a4343 !important;
 		color: #d8c7c4 !important;
 	}
@@ -590,7 +598,7 @@ div.goog-menu, div.goog-menu-vertical{
 		color: #f1dedb !important;
 	}
 	
-	body.HelvetiNight .selected .link,.selected .text, body.HelvetiNight .tree-link-selected .name-text{
+	body.HelvetiNight .selected .link,.selected .text, body.HelvetiNight .tree-link-selected .name-text, body.HelvetiNight .tree-link-selected .folder-name-text{
 		color: #f1dedb !important;
 	}
 	
@@ -659,6 +667,11 @@ div.goog-menu, div.goog-menu-vertical{
 	body.HelvetiNight .generic-comments-header, body.HelvetiNight .goog-button-base-content, body.HelvetiNight .start-your-convo{
 		color: #ccc !important;
 	 }
+	 
+	 body.HelvetiNight .email-entry-table{
+		color: #dec7c7 !important;
+		background-color: #353030 !important;
+	}
 
 /* @end */
 
