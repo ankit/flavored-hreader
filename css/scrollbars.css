@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment{
+	display:none;
+}
+
+::-webkit-scrollbar-button:start:increment,
+::-webkit-scrollbar-button:end:decrement {
+    display: none;
+}
+::-webkit-scrollbar-track-piece{
+	border-radius:7px;
+	background-color: #e1e1e1;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 100px;
+	border-radius:7px;
+    background-color: #878787;
+}
+
+::-webkit-scrollbar-corner:vertical, #sub-tree::-webkit-scrollbar-resizer:vertical {
+    background-color: #ededed;
+}
+
+::-webkit-scrollbar-corner:vertical, #sub-tree.GleeThemeWhite::-webkit-scrollbar-resizer:vertical {
+    background-color: #c5c9d1;
+}

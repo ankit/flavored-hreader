@@ -3,7 +3,7 @@
       "exclude_globs": [  ],
       "include_globs": [ "https://*.google.com/reader/view/*", "http://*.google.com/reader/view/*", "htt*://*.google.*/reader/view*" ],
       "js": [ "helvetireader.js" ],
-			"css": [ "helvetireader.css" ],
+			"css": [ "css/helvetireader.css", "css/scrollbars.css", "css/sprites.css", "css/light-theme.css", "css/dark-theme.css", "css/buttons.css" ],
       "matches": [ "http://*/*", "https://*/*" ]
    } ],
 	 "icons":{

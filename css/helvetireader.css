@@ -1,0 +1,338 @@
+/*
+--------------------------------------------------------------
+Helvetireader: A New Flavor
+--------------------------------------------------------------
+*/
+
+/* @group Core */
+
+* {font-family: "Helvetica Neue", Helvetica-Neue, Helvetica, "MgOpen Moderna", sans-serif !important;}
+
+/* Anything to to hide? */
+#logo,.gbh, .star {display: none !important;}
+
+#guser{
+	padding-bottom:0px !important;
+}
+#chrome-header{
+	display: none;
+}
+#guser a, #guser{
+	font-size: 10px !important;
+	color: #aaa !important; 
+	text-decoration: none !important;
+	border: none !important;
+}
+#guser a:hover{
+	color: #888 !important;
+}
+
+/* Get rid of all unwanted borders and backgrounds */
+#chrome-header, 
+.card-actions,
+#viewer-top-controls, 
+#chrome-view-links, 
+#viewer-header, 
+#viewer-footer, 
+#chrome-lhn-toggle, 
+.lhn-section, 
+#chrome, 
+#viewer-container, 
+#entries.list .entry, 
+.collapsed,
+#entries.list #current-entry.expanded,
+#entries.list #current-entry.expanded .entry-actions,
+.scroll-tree li,
+.card, 
+.card-bottom,
+#search-restrict  {
+	background: none !important;
+	border-color: transparent !important;
+	-webkit-box-shadow: 0 0 0 !important;
+}
+
+.item-body{
+	line-height: 1.5;
+}
+
+/*begone yellow fiend*/
+
+#directory-tour,
+#featured-bundles-container,
+#lhn-selectors .selector:hover,
+.lhn-menu #lhn-add-subscription-section .goog-button-body:hover,
+.friends-tree-notification-info,
+.friends-feeds-invite-info,
+#friends-tree .friends-tree-following-info,
+.progress-message .message-area-inner,
+.small-interruption,
+.preview-interruption,
+.friend-interruption.preview-interruption,
+.bookmarklet-container .bookmarklet-callout-inner,
+.recommended-feed-highlight,
+.scroll-tree li a:hover,
+.scroll-tree li .updated,
+a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
+#featured-bundles-promo,
+#explore-promo {
+	background: transparent !important;
+	border: #ccc !important;
+}
+
+#entries-status{right: 36px !important;}
+
+#loading-area .message-area-inner{background-color: #8291b8 !important; color: #fff !important;}
+
+#nav {margin: 0 0 0 12px !important; width: 240px !important;}
+#nav li, #nav div {font-size: 12px !important;}
+
+.scroll-tree a .name {
+	color: #818181 !important;
+	text-shadow:#fff 0px 1px 0;	
+}
+
+.folder-name,
+.scroll-tree .name,
+.selector .text,
+a#sub-tree-subscriptions,
+#recommendations-tree-view-all
+{
+	color: #818181 !important; 
+	font-weight: bold;
+}
+
+#sub-tree .folder-name-text {margin: 0 0 0 4px !important;}
+#lhn-subscriptions { margin: 20px 0 0 0 !important;}
+.unread-count { color: rgba(144,160,203,0.55);}
+.tree-link-selected { background: none !important; }
+.tree-link-selected .name-text { color: #000 !important;}
+
+#lhn-selectors .selected,#lhn-selectors .selected:hover{ 
+	background-color:transparent !important;
+}
+
+.selected .link,.selected .text {
+	color: #657094 !important;
+	font-weight: bold !important;
+}
+
+.entry-main {
+	padding: 0 0 2.3em 0 !important;
+	margin: 0 10px 0 35px !important;
+}
+
+.entry .entry-body{padding: 20px 0 0 0 !important}
+
+.entry { background: transparent !important;}
+.entries-list .expanded {margin: 20px 0 !important;}
+
+.card-content .entry-title {
+	font-size: 18px !important;
+	margin: 0 !important;
+}
+
+.entry-author, .entry-author a {
+	font-weight: bold;
+	font-size: 11px;
+	color: #cdcdcd !important;
+}
+
+.card-content .entry-date {
+	float:none !important;	
+	position: absolute;
+	bottom: 0;
+	font-size: 11px;
+}
+
+#current-entry .entry-title-link {color: #657094 !important;}
+
+#current-entry .entry-author a:hover { color: #657094 !important; }
+#viewer-footer {padding:3px 3px 3px 10px !important}
+.card-content, #current-entry .card-content {padding:10px !important;}
+
+.card-bottom { padding: 0px !important; }
+.card-content .star{margin-top: 3px;}
+.entry-title-link { color: #666 !important;}
+.entry-comments { margin-left: 35px !important;}
+
+.entry-actions {
+	border-top: 1px solid #eee;
+	padding: 8px 6px 8px 40px !important;
+}
+
+/* @end */
+
+/* @group Full */
+
+#gbar,
+.scroll-filler-recs-message .secondary,
+#directory-selector,
+#recommendations-tree,
+#lhn-recommendations,
+#viewer-footer,
+#your-items-tree,
+#chrome-view-links,
+#trends-selector,
+#overview-selector,
+#lhn-friends,
+#entries-status,
+.entry-likers,
+#search-restrict,
+#search-submit,
+#ogspacer,
+.entry-actions .star,
+.entry-title-go-to,
+#chrome-title,
+#chrome-lhn-toggle,
+#lhn-selectors .selector-icon,
+#viewer-header,
+.tag-icon {display: none !important;}
+
+#search { 
+	margin: 0!important; 
+	left: 35px !important;
+	top: 40px !important;	
+}
+
+#search-input { 
+	border: 1px solid #ddd !important; 
+	font-size:11px;
+	color: #aaa;
+	padding: 1px;
+	height: 8px !important;
+	-webkit-border-radius: 10px;
+	outline: none;
+	width: 200px !important;
+}
+
+#chrome { margin: -45px 0 10px 245px !important;}
+
+/* @end */
+
+/* @group Ankit's mods */
+
+.scroll-tree .name:not(.folder-name){
+	padding-left: 12px !important;
+}
+.sub-icon{
+	display:none !important;
+}
+#sub-tree ul ul li a{
+	padding-left: 40px !important;
+}
+.section-minimize{
+	right: 12px !important;
+}
+#lhn-selectors-menubutton,#lhn-subscriptions-menubutton{
+	right: -2px !important;
+}
+.entry-actions{
+	font-size: 11px !important;
+}
+.tree-link-selected .name-text, .tree-link-selected .folder-name-text{
+	color:#657094 !important;
+}
+.scroll-tree .link:hover{
+	border-radius:2px !important;
+}
+
+.email-entry-table .goog-button-body{
+	font-weight: bold;
+}
+
+/* @group Menu */
+div.goog-menu, div.goog-menu-vertical{
+	border-radius:2px !important;
+	opacity: 0.9 !important;
+}
+.goog-menuitem{
+	color: #333 !important;
+	font-size:11px !important;
+	line-height:19px !important;
+}
+.goog-menuitem:hover{
+	background-color: #ddd !important;
+}
+/* @end */
+
+/* @group Banners */
+
+.banner{
+	background-color:#f8f8f8 !important;
+	opacity: 0.8 !important;
+	border-radius:5px !important;
+	color: #666 !important;
+	border: 1px solid #ccc !important;
+	text-shadow: none !important;
+}
+
+.banner > .primary-message{
+	font-size: 18px !important;
+	text-shadow: none !important;
+}
+.banner > .secondary-message{
+	border: none !important;
+	text-shadow: none !important;	
+}
+.banner th{
+	color: #868686 !important;
+	font-size: 16px !important;
+}
+.banner td{
+	font-size: 12px !important	;
+}
+.banner .stream-list{
+	color: #333 !important;
+}
+.banner .stream-list-header{
+	font-style: italic !important;
+	font-size:11px !important;
+	margin-top: -10px !important;
+	margin-bottom: 15px !important;
+	font-weight: normal !important;
+}
+.banner .stream-list-label{
+	font-size: 13px !important;
+	color: #333 !important;
+}
+.banner .stream-list{
+	font-size: 13px !important;
+}
+.banner .stream-list .streams .unread{
+	color: #657094 !important;
+}
+.banner .stream-list .streams .selected{
+	background-color: #657094 !important;
+	border-radius:2px !important;
+	color: #fff !important;
+}
+.banner .no-matches{
+	color: #333 !important;
+	font-size: 14px !important;
+}
+/* @end */
+
+#HelvetiThemeSwitcher{
+	display: inline;
+	margin-right: 3px;
+	cursor:pointer;
+	border-right: 1px solid #ccc;
+	padding-right: 2px;
+	font-weight: bold;
+	font-size:10px;
+}
+
+.entry-author a:hover{
+	color: #adadad !important;
+}
+
+#viewer-top-controls{
+    margin-left:10px !important;
+    padding:2px !important;
+    font-size:11px;
+    width:96%;
+    color:#888;
+/*    visibility: hidden !important;*/
+    z-index:-1 !important;
+    background-color:#fbfbfb !important;
+}

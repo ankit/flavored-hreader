@@ -1,0 +1,33 @@
+.goog-button, 
+.goog-button div{
+    background:none !important;
+    border:none !important;
+}
+
+.goog-button{
+    border: 1px solid #ccc !important;
+    border-radius:2px !important;
+}
+
+.goog-button-base-content{
+    color: #888 !important;
+}
+
+body.HelvetiNight .goog-button-base-content{
+    color: #ccc !important;
+}
+
+#lhn-add-subscription-section .goog-button{
+    margin-left:18px !important;
+    border:none !important;
+}
+
+.subscribe-button {
+	padding-left:0px !important;
+	height: 20px !important;
+	font-weight: bold;
+	padding: 0px;
+	border-radius:3px;
+	color: #888;
+	background-image:none !important;
+}
