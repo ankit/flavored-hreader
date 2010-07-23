@@ -1,10 +1,9 @@
 {
-   "content_scripts": [ {
-      "exclude_globs": [  ],
-      "include_globs": [ "https://*.google.com/reader/view/*", "http://*.google.com/reader/view/*", "htt*://*.google.*/reader/view*" ],
-      "js": [ "helvetireader.js" ],
-			"css": [ "css/helvetireader.css", "css/scrollbars.css", "css/sprites.css", "css/light-theme.css", "css/dark-theme.css", "css/buttons.css" ],
-      "matches": [ "http://*/*", "https://*/*" ]
+	"content_scripts": [ 
+	{
+			"matches": ["http://www.google.com/reader/*", "https://www.google.com/reader/*"],
+			"js": [ "helvetireader.js" ],
+			"css": [ "css/helvetireader.css", "css/scrollbars.css", "css/sprites.css", "css/light-theme.css", "css/dark-theme.css", "css/buttons.css" ]
    } ],
 	 "icons":{
 		"128": "images/icon.png"

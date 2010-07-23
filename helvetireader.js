@@ -1,11 +1,12 @@
-// ==UserScript==
-// @name        HelvetiReader: A New Flavor
-// @description Helvetireader style for Google Reader
-// @include     https://*.google.com/reader/view/*
-// @include     http://*.google.com/reader/view/*
-// @include     htt*://*.google.*/reader/view*
-// @author      Helvetireader by Jon Hicks (http://www.hicksdesign.co.uk) with favicon override by MkFly
-// ==/UserScript==
+/** 
+ * 
+ * Flavored Helvetireader
+ * Helvetireader style for Google Reader
+ * 
+ * Original Author: Jon Hicks (http://www.hicksdesign.co.uk) with favicon override by MkFly
+ * Modified By: Ankit Ahuja
+ * 
+ **/
 
 var currentHelvetiTheme = "day";
 
@@ -119,4 +120,3 @@ function getThemeCookie(name){
 	}
     return "day"; //default
 }
-

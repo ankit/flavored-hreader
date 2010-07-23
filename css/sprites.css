@@ -28,7 +28,7 @@
 }
 .entry .entry-actions .like{
 	/* development */
-	background: transparent url(chrome-extension://ljbmahedhikjhjkeaefhhcalhmidebkk/images/like.png) no-repeat 0px 0px !important;
+  background: transparent url(chrome-extension://ljbmahedhikjhjkeaefhhcalhmidebkk/images/like.png) no-repeat 0px 0px !important;
 	/* production */
 	/*background: transparent url(chrome-extension://dkcjfdlgfmefnbhkholnhliliohggmef/images/like.png) no-repeat 0px 0px !important;*/
 }
