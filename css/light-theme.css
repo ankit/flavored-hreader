@@ -64,7 +64,7 @@ body.HelvetiDay .entry-author, body.HelvetiDay .entry-author a {
 }
 
 body.HelvetiDay .tree-link-selected .name-text, body.HelvetiDay .tree-link-selected .folder-name-text {
-	color: #2d4570 !important;
+	color: #49638f !important;
 }
 
 body.HelvetiDay .entry-title-link {
@@ -72,11 +72,11 @@ body.HelvetiDay .entry-title-link {
 }
 
 body.HelvetiDay .scroll-tree a .name {
-	color: #656565 !important;
+	color: #777 !important;
 	text-shadow: #fff 0px 1px 0;	
 }
 
 body.HelvetiDay .scroll-tree a:hover, body.HelvetiDay .scroll-tree a:hover .name, body.HelvetiDay .scroll-tree li .cursor, body.HelvetiDay .scroll-tree li .cursor .name, body.HelvetiDay .scroll-tree li .cursor .folder-name, body.HelvetiDay .scroll-tree a:hover .folder-name {
-	color: #555 !important;
+	color: #666 !important;
 	background-color: #eaeaea !important;
 }

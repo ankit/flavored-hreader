@@ -236,10 +236,9 @@ div.goog-menu, div.goog-menu-vertical{
 /* @group Banners */
 
 .banner{
-	background-color:#f8f8f8 !important;
-	opacity: 0.8 !important;
-	border-radius:5px !important;
-	color: #666 !important;
+	background-color: rgba(251,251,251,0.95) !important;
+	border-radius: 5px !important;
+	color: #555 !important;
 	border: 1px solid #ccc !important;
 	text-shadow: none !important;
 }
@@ -253,7 +252,7 @@ div.goog-menu, div.goog-menu-vertical{
 	text-shadow: none !important;	
 }
 .banner th{
-	color: #868686 !important;
+	color: #555 !important;
 	font-size: 16px !important;
 }
 .banner td{
@@ -264,7 +263,7 @@ div.goog-menu, div.goog-menu-vertical{
 }
 .banner .stream-list-header{
 	font-style: italic !important;
-	font-size:11px !important;
+	font-size: 11px !important;
 	margin-top: -10px !important;
 	margin-bottom: 15px !important;
 	font-weight: normal !important;
@@ -277,11 +276,11 @@ div.goog-menu, div.goog-menu-vertical{
 	font-size: 13px !important;
 }
 .banner .stream-list .streams .unread{
-	color: #657094 !important;
+	color: #49638f !important;
 }
 .banner .stream-list .streams .selected{
-	background-color: #657094 !important;
-	border-radius:2px !important;
+	background-color: #49638f !important;
+	border-radius: 2px !important;
 	color: #fff !important;
 }
 .banner .no-matches{
