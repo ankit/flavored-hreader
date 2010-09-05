@@ -1,51 +1,82 @@
-body.HelvetiDay{ 
-    background-color:#F7F7F7 !important; 
+body.HelvetiDay {
+    background-color:#F7F7F7 !important;
     color:#000 !important;
 }
 
-body.HelvetiDay .card , body.HelvetiDay #entries.list{ 
-	background: #f8f8f8 !important; 
-	border: 1px solid #eee !important;	
+body.HelvetiDay .card, body.HelvetiDay #entries.list {
+	background: #f8f8f8 !important;
+	border: 1px solid #eee !important;
 	border-bottom: 1px solid #ddd !important;
 	margin-right: 20px !important;
 }
 
-body.HelvetiDay #current-entry .card{
+body.HelvetiDay #current-entry .card {
 	background: #fff !important;
 	border: 1px solid #ddd !important;
 	border-bottom: 1px solid #ccc !important;
 	color: #333 !important;
 }
 
-body.HelvetiDay .item-body{
+body.HelvetiDay .item-body {
     color: #333 !important;
 }
 
-body.HelvetiDay a, 	body.HelvetiDay a:visited,	body.HelvetiDay .link{
-    color:#1E83CB !important; 
+body.HelvetiDay a, body.HelvetiDay a:visited, body.HelvetiDay .link {
+    color: #1E83CB !important; 
     text-decoration: none !important;
 }
 
-body.HelvetiDay .card-content .entry-title a{
+body.HelvetiDay .card-content .entry-title a {
 	color: #888 !important;
 }
 
-body.HelvetiDay .entry-author a{
-	color: #adadad !important;
-}
-body.HelvetiDay #home{
+body.HelvetiDay #home {
 	background-color: #f8f8f8 !important;
-	color:#333 !important;
-}
-body.HelvetiDay #overview .item-snippet{
-	color:#333 !important;
+	color: #333 !important;
 }
 
-body.HelvetiDay .scroll-tree a:hover, body.HelvetiDay .scroll-tree a:hover .name, body.HelvetiDay .scroll-tree li .cursor, body.HelvetiDay .scroll-tree li .cursor .name, body.HelvetiDay .scroll-tree li .cursor .folder-name, body.HelvetiDay .scroll-tree a:hover .folder-name{
-	color: #7a7a7a !important;
-	background-color: #eaeaea !important;
+body.HelvetiDay #overview .item-snippet {
+	color: #333 !important;
 }
-body.HelvetiDay .email-entry-table{
+
+body.HelvetiDay .email-entry-table {
 	color: #333 !important;
 	background-color: #F7F7F7 !important;
+}
+
+body.HelvetiDay .unread-count {
+	color: #61769c;
+	font-size: 11px;
+}
+
+body.HelvetiDay .selected .link, body.HelvetiDay .selected .text {
+	color: #49638f !important;
+	font-weight: bold !important;
+}
+
+body.HelvetiDay #current-entry .entry-title-link, body.HelvetiDay #current-entry .entry-author a:hover {
+	color: #49638f !important;
+}
+
+body.HelvetiDay .entry-author, body.HelvetiDay .entry-author a {
+	font-size: 12px !important;
+	color: #757575 !important;
+}
+
+body.HelvetiDay .tree-link-selected .name-text, body.HelvetiDay .tree-link-selected .folder-name-text {
+	color: #2d4570 !important;
+}
+
+body.HelvetiDay .entry-title-link {
+	color: #666 !important;
+}
+
+body.HelvetiDay .scroll-tree a .name {
+	color: #656565 !important;
+	text-shadow: #fff 0px 1px 0;	
+}
+
+body.HelvetiDay .scroll-tree a:hover, body.HelvetiDay .scroll-tree a:hover .name, body.HelvetiDay .scroll-tree li .cursor, body.HelvetiDay .scroll-tree li .cursor .name, body.HelvetiDay .scroll-tree li .cursor .folder-name, body.HelvetiDay .scroll-tree a:hover .folder-name {
+	color: #555 !important;
+	background-color: #eaeaea !important;
 }

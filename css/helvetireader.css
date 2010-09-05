@@ -86,11 +86,6 @@ a:hover .tree-item-action-container,.scroll-tree li a.menu-open,
 #nav {margin: 0 0 0 12px !important; width: 240px !important;}
 #nav li, #nav div {font-size: 12px !important;}
 
-.scroll-tree a .name {
-	color: #818181 !important;
-	text-shadow:#fff 0px 1px 0;	
-}
-
 .folder-name,
 .scroll-tree .name,
 .selector .text,
@@ -103,17 +98,11 @@ a#sub-tree-subscriptions,
 
 #sub-tree .folder-name-text {margin: 0 0 0 4px !important;}
 #lhn-subscriptions { margin: 20px 0 0 0 !important;}
-.unread-count { color: rgba(144,160,203,0.55);}
 .tree-link-selected { background: none !important; }
 .tree-link-selected .name-text { color: #000 !important;}
 
 #lhn-selectors .selected,#lhn-selectors .selected:hover{ 
 	background-color:transparent !important;
-}
-
-.selected .link,.selected .text {
-	color: #657094 !important;
-	font-weight: bold !important;
 }
 
 .entry-main {
@@ -131,12 +120,6 @@ a#sub-tree-subscriptions,
 	margin: 0 !important;
 }
 
-.entry-author, .entry-author a {
-	font-weight: bold;
-	font-size: 11px;
-	color: #cdcdcd !important;
-}
-
 .card-content .entry-date {
 	float:none !important;	
 	position: absolute;
@@ -144,15 +127,11 @@ a#sub-tree-subscriptions,
 	font-size: 11px;
 }
 
-#current-entry .entry-title-link {color: #657094 !important;}
-
-#current-entry .entry-author a:hover { color: #657094 !important; }
 #viewer-footer {padding:3px 3px 3px 10px !important}
 .card-content, #current-entry .card-content {padding:10px !important;}
 
 .card-bottom { padding: 0px !important; }
 .card-content .star{margin-top: 3px;}
-.entry-title-link { color: #666 !important;}
 .entry-comments { margin-left: 35px !important;}
 
 .entry-actions {
@@ -226,12 +205,11 @@ a#sub-tree-subscriptions,
 #lhn-selectors-menubutton,#lhn-subscriptions-menubutton{
 	right: -2px !important;
 }
+
 .entry-actions{
 	font-size: 11px !important;
 }
-.tree-link-selected .name-text, .tree-link-selected .folder-name-text{
-	color:#657094 !important;
-}
+
 .scroll-tree .link:hover{
 	border-radius:2px !important;
 }
