@@ -1,21 +1,11 @@
-Flavored Helvetireader
-=====================
+**IMPORTANT**: I am no longer maintaining or updating this extension. Instead, I am using [Stylebot](https://chrome.google.com/extensions/detail/dkcjfdlgfmefnbhkholnhliliohggmef) for applying the CSS in this extension. 
 
-This project is built on top of the [Helvetireader](http://helvetireader.com) userscript created by John Hicks which styles Google Reader to make feeds more readable.
+Most recent versions of CSS:
 
-Flavored Helvetireader further styles Reader to make RSS even more fun to read and reduces the clutter to a minimum.
+* Day Theme: [http://stylebot.me/styles/61](http://stylebot.me/styles/61)
 
-Installation
-------------
+* Night Theme: [http://stylebot.me/styles/62](http://stylebot.me/styles/62)
 
-Flavored Helvetireader is available as a Chrome extension. Get it from [here](https://chrome.google.com/extensions/detail/dkcjfdlgfmefnbhkholnhliliohggmef "").
+###Development
 
-
-Development
------------
-Fork it and let your imagination run wild!
-
-Credits
--------
-
-The dark theme is inspired from [Readability's](http://lab.arc90.com/experiments/readability/ "") Inverse.
+Post your issues or tweaks on Stylebot Social: [http://stylebot.me/styles/61](http://stylebot.me/styles/61)
