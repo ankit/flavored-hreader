@@ -1,4 +1,4 @@
-**IMPORTANT**: I am no longer maintaining or updating this extension. Instead, I am using [Stylebot](https://chrome.google.com/extensions/detail/dkcjfdlgfmefnbhkholnhliliohggmef) for applying the CSS in this extension. 
+**IMPORTANT**: I am no longer maintaining or updating this extension. Instead, I am using [Stylebot](https://chrome.google.com/extensions/detail/oiaejidbmkiecgbjeifoejpgmdaleoha) for applying the CSS in this extension. 
 
 Most recent versions of CSS:
 
